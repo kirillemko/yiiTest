@@ -18,6 +18,10 @@ class SiteController extends Controller
     // TODO: dsfgsdgfsdgsd
     public function actionTest($id)
     {
+        asdfa
+
+        asdf
+
         User::findIdentity();
         return $this->render('index');
     }
