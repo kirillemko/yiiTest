@@ -19,7 +19,7 @@ class SiteController extends Controller
     public function actionTest($id)
     {
         User::findIdentity();
-        return $this->render('index');
+        return $this->render('indexdkfg,gb');
     }
 
 
